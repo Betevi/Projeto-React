@@ -6,10 +6,11 @@ return (
     <span> Biblioteca Bem Te Vi </span>
 
         <nav>
-        <a href="">Home</a>
-        <a href="">Sobre</a>
-        <a href="">Projetos</a>
-        <a href="">Contatos</a>
+        <Link to="/Home">Home</Link>
+        <Link to="/Sobre">Sobre</Link>
+        <Link to ="/Projetos">Projetos</Link>
+        <Link to="/Contatos">Contatos</Link>
+        <Link to="/"></Link>
         </nav>
         </header>
     )
