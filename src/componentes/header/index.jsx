@@ -1,4 +1,5 @@
 import styles from './header.module.css'
+import { Link } from 'react-router-dom'
 
 function Header() {
 return (
@@ -6,11 +7,11 @@ return (
     <span> Biblioteca Bem Te Vi </span>
 
         <nav>
-        <Link to="/Home">Home</Link>
-        <Link to="/Sobre">Sobre</Link>
-        <Link to ="/Projetos">Projetos</Link>
-        <Link to="/Contatos">Contatos</Link>
-        <Link to="/"></Link>
+        <Link to="/">Home</Link>
+        <Link to="/sobre">Sobre</Link>
+        <Link to="/projetos">Projetos</Link>
+        <Link to="/contatos">Contatos</Link>
+        <Link to="/"><span></span></Link>
         </nav>
         </header>
     )

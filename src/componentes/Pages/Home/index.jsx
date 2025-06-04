@@ -1,5 +1,6 @@
-import '../../Header'
-import '../../Footer'
+import { Link } from 'react-router-dom'
+import imagemHome from '../../../assets/img1.svg'
+import imagemHome2 from '../../../assets/img2.svg'
 
 function Home() {
     return (
@@ -10,16 +11,16 @@ function Home() {
             <span>Seus Amiguinhos, Elizabete e Maria Clara</span> <br />
             Devs Full Stack
           </p>
-          <button className='btn btn-red'>
+          <Link to="/sobre" className='btn btn-red'>
             Saiba mais sobre nós!
-          </button>
+          </Link>
         </div>
         <figure>
-          <img className='img-home' src="/img2.svg" alt="Imagem da Home" />
+          <img className="img-home" src={imagemHome} alt="Imagem da Home" />
         </figure>
 
         <figure>
-          <img className='img-home' src="/img2.svg" alt="Imagem da Home" />
+          <img className="img-home" src={imagemHome2} alt="Imagem da Home" />
         </figure>
         </>
     )

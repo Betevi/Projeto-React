@@ -1,7 +1,9 @@
 function Projetos(){
     return(
-        <h1>Projetos prr</h1>
+        <>
+        <h1>Projetos</h1>
+        </>
     )
 }
 
-export default Con
+export default Projetos
